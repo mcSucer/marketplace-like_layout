@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+.upHeader{
+    display:flex;
+    flex-direction: row;
+}
+.bottHeader
+{
+    display: flex;
+    flex-direction: row;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+.productCard
+{
+    display: flex;
+    flex-direction: row ;
+}
+.productInfo
+{
+    display: flex;
+    flex-direction: column;
+}
+.costProduct
+{
+    display: flex;
+    flex-direction: row;
+}
+.presence
+{
+    display: flex;
+    flex-direction: row;
+}
+ .color_keycaps
+ {
+display: flex;
+flex-direction: row;
+ }
+ .colorSec
+ {
+    display: flex;
+    flex-direction: column;
+ }
+ .colors
+ {
+    display: flex;
+    flex-direction: row;
+ }
+ .keycapSec
+ {
+    display: flex;
+    flex-direction: column;
+ }
+ .keycapsCount
+ {
+    display: flex;
+    flex-direction: row;
+ }
