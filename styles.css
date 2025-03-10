@@ -3,24 +3,78 @@ header{
     flex-direction: column;
 }
 .upHeader{
+    margin-top: 3vh;
     display:flex;
     flex-direction: row;
 }
+.tabs
+{
+    word-spacing: 10px;
+    margin-left: 30%;
+    margin-right: 50px;
+}
+.number
+{
+    margin-left: 20%;
+}
 .bottHeader
 {
+    margin-left:25vh;
     display: flex;
     flex-direction: row;
 }
-
+.catalog
+{   
+    color: rgb(247, 247, 247);
+    font-size: larger;
+    font-weight: 700;
+    background: linear-gradient(to bottom right, rgb(243, 163, 44), rgb(255, 153, 0));
+    width: 25vh;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+}
+.search
+{
+    background-color: rgb(241, 241, 241);
+    margin-left: 3vh;
+    margin-right: 3vh;
+    width: 80vh;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+}
+.buttonsInHeader
+{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.buttonHeader
+{
+ width: 30px;
+}
 main
 {
     display: flex;
     flex-direction: column;
 }
+.nameOfProduct
+{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left:25vh;
+    font-size: xx-large;
+    font-weight: 900;
+}
 .productCard
 {
     display: flex;
     flex-direction: row ;
+}
+.productPhoto
+{
+    margin-top: 10vh;
+    margin-left: 30vh;
 }
 .productInfo
 {
@@ -31,14 +85,57 @@ main
 {
     display: flex;
     flex-direction: row;
+    margin-left: 10vh;
+    margin-top: 10vh;
+}
+
+.cost
+{
+    font-size: x-large;
+    font-weight: 700;
+}
+.buyProduct
+{
+    color: rgb(250, 250, 250);
+    margin-left: 50vh;
+    font-size: larger;
+    font-weight: 300;
+    width: 15vh;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(255, 173, 50), rgb(255, 153, 0));
 }
 .presence
 {
     display: flex;
     flex-direction: row;
+    margin-top: 3vh;
+    margin-left: 10vh;
+}
+.presenceInShop
+{
+    background-color: rgb(241, 241, 241); 
+    width: 15vh;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin: 5px;
+}
+.presenceInВropsite
+{
+    background-color: rgb(241, 241, 241);
+        width: 15vh;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        margin: 5px;
 }
  .color_keycaps
  {
+    margin-left: 10vh;
 display: flex;
 flex-direction: row;
  }
@@ -52,6 +149,22 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
  }
+ .greyCol
+ {
+    border: none;
+    height: 30px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 5px;
+ }
+  .blackCol {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 30px;
+    width: 40px;
+    margin: 5px;
+  }
  .keycapSec
  {
     display: flex;
@@ -61,4 +174,17 @@ flex-direction: row;
  {
     display: flex;
     flex-direction: row;
+ }
+ .key
+ { 
+    background-color: rgb(223, 223, 223);
+    margin: 5px;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    font-size: medium;
+ }
+ .keycap104
+ {
+    border: none;
  }
